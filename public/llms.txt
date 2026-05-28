@@ -1,0 +1,222 @@
+# JT Consulting - Site Information for AI Models
+
+## Site Overview
+
+- **URL**: https://jtconsulting.com.co
+- **Name**: JT Consulting
+- **Description**: Servicios contables y financieros para pequeñas empresas en EE.UU. y Colombia
+- **Type**: Single-page business website
+- **Languages**: Spanish (ES) - default, English (EN)
+- **Author**: JT Consulting
+- **Contact Phone**: +57 300 6221079
+- **Tagline**: "Claridad Financiera para tu Negocio" | "Finanzas sólidas para negocios que crecen"
+
+## Navigation Structure
+
+### Main Navigation
+- **Servicios** → Section `#servicios`
+- **Contáctame** → Section `#contacto` (footer)
+
+### Language Toggle
+- ES/EN toggle button in header (desktop and mobile)
+- Language preference stored in JavaScript variable
+
+## Page Sections
+
+### 1. Header/Navbar
+- Sticky navigation bar
+- Logo: `jt-consulting-logo.jpeg` (with `rounded-lg` corners)
+- WhatsApp contact button
+- Mobile hamburger menu
+
+### 2. Hero Section
+- **Badge**: SERVICIOS CONTABLES Y FINANCIEROS / ACCOUNTING & FINANCIAL SERVICES
+- **Title**: CLARIDAD FINANCIERA PARA TU NEGOCIO / FINANCIAL CLARITY FOR YOUR BUSINESS
+- **Subtitle**: Help organizing finances, understanding numbers, making better decisions
+- **Stats Panel**:
+  - 10+ AÑOS DE EXPERIENCIA / 10+ YEARS OF EXPERIENCE
+  - EXPERIENCIA EN EE.UU. Y COLOMBIA / US & COLOMBIA EXPERIENCE
+  - ENFOCADA EN RESULTADOS / FOCUSED ON RESULTS
+- **Card**: "MÁS QUE CONTABILIDAD — Transformo tus datos financieros en herramienta para tomar mejores decisiones y crecer"
+- **CTA**: ¡TRABAJEMOS JUNTOS! / LET'S WORK TOGETHER!
+- **Image** (dynamic based on language):
+  - **ES**: `02-claridad-finaciera.jpeg` (Mujer profesional trabajando en finanzas)
+  - **EN**: `01-financial-clarity.jpeg` (Professional woman working on finances)
+
+### 3. Services Section (`#servicios`)
+- **Background**: `03-financial-clarity-business.jpeg` with overlay
+- **Callout**: "Transformando datos financieros en crecimiento y mejores decisiones"
+
+#### Services (5 total):
+1. **CONTABILIDAD Y CONCILIACIONES** - Registros precisos y actualizados / Accurate and up-to-date records
+2. **INFORMES FINANCIEROS** - Estado de Resultados, Balance General, Flujo de Caja / Income Statement, Balance Sheet, Cash Flow
+3. **PRESUPUESTOS Y CONTROL DE COSTOS** - Planifica, monitorea y optimiza tus recursos / Plan, monitor, and optimize your resources
+4. **ANÁLISIS FINANCIERO** - Información clara para tomar mejores decisiones / Clear insights for better business decisions
+5. **APOYO PARA EMPRESAS EN EE.UU. Y COLOMBIA** - Experiencia trabajando con empresas en ambos mercados / Experience working with companies in both markets
+
+### 4. Trust Section
+- **CONFIABLE** - Confidencialidad y profesionalismo / Confidentiality and professionalism
+- **ENTREGA PUNTUAL** - Compromiso y eficiencia / Commitment and efficiency
+- **COMUNICACIÓN CLARA** - Te mantengo informado en cada paso / I keep you informed every step of the way
+- **CTA**: ¡TRABAJEMOS JUNTOS! button
+
+### 5. Footer (`#contacto`)
+- Logo: `jt-consulting-logo.jpeg` (with `rounded-lg` corners)
+- Tagline: "Finanzas sólidas para negocios que crecen"
+- WhatsApp contact link: +57 300 6221079
+- Copyright: © 2025 JT Consulting. Todos los derechos reservados.
+
+## Assets/Images
+
+| File | Description |
+|------|-------------|
+| `jt-consulting-logo.jpeg` | Company logo (used in navbar and footer with rounded corners) |
+| `01-financial-clarity.jpeg` | Hero image for English version (professional woman working on finances) |
+| `02-claridad-finaciera.jpeg` | Hero image for Spanish version (woman working on finances) |
+| `03-financial-clarity-business.jpeg` | Services section background |
+| `favicon.png` | Favicon |
+
+## Technologies Used
+
+- **HTML5**: Semantic structure
+- **Tailwind CSS**: Via CDN (`@tailwindcss/browser@4`)
+- **Google Fonts**: Inter font family
+- **JavaScript**: Vanilla JS for interactivity
+- **No frameworks**: Pure HTML/CSS/JS
+
+## Key Features
+
+- Responsive design (mobile-first approach)
+- Bilingual support (ES/EN toggle) with dynamic hero image
+- WhatsApp floating button with pulse animation
+- Smooth scroll navigation
+- Mobile responsive menu
+- Schema.org LocalBusiness JSON-LD
+
+## SEO Metadata
+
+### Meta Tags
+```
+Title: JT Consulting | Claridad Financiera para tu Negocio
+Description (ES): Servicios contables y financieros para pequeñas empresas en EE.UU. y Colombia. Contabilidad, conciliaciones, informes financieros y análisis empresarial.
+Description (EN): Accounting and financial services for small businesses in the U.S. and Colombia. Bookkeeping, reconciliations, financial reports and business analysis.
+Keywords: accounting, bookkeeping, financial consulting, Colombia, US, small business, contabilidad, finanzas, conciliaciones, servicios contables, informes financieros, análisis financiero
+Robots: index, follow
+Canonical: https://jtconsulting.com.co
+```
+
+### Open Graph
+```
+og:title: JT Consulting | Claridad Financiera para tu Negocio
+og:description: Servicios contables y financieros para pequeñas empresas en EE.UU. y Colombia. Te ayudo a organizar tus finanzas y tomar mejores decisiones.
+og:image: 03-financial-clarity-business.jpeg
+og:type: website
+og:url: https://jtconsulting.com.co
+```
+
+### Twitter Cards
+```
+twitter:card: summary_large_image
+twitter:title: JT Consulting | Claridad Financiera para tu Negocio
+twitter:description: Servicios contables y financieros para pequeñas empresas en EE.UU. y Colombia.
+twitter:image: 03-financial-clarity-business.jpeg
+```
+
+### Schema.org JSON-LD
+```json
+{
+  "@type": "LocalBusiness",
+  "name": "JT Consulting",
+  "description": "Servicios contables y financieros para pequeñas empresas en EE.UU. y Colombia",
+  "telephone": "+573006221079",
+  "address": { "@type": "PostalAddress", "addressCountry": "CO" },
+  "url": "https://jtconsulting.com.co"
+}
+```
+
+## Contact Information
+
+- **WhatsApp**: https://wa.me/573006221079
+- **Phone**: +57 300 6221079
+- **Website**: https://jtconsulting.com.co
+
+## Target Audience
+
+Small business owners in:
+- **United States (EE.UU.)**
+- **Colombia**
+
+Industries served:
+- Small businesses requiring accounting services
+- Companies needing financial analysis and reporting
+- Businesses seeking budget and cost control
+- Enterprises requiring bilingual (ES/EN) financial support
+
+## Color Scheme
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Primary Dark | `#0D2137` | Navbar, headers, backgrounds |
+| Primary Green | `#2D8653` | CTAs, buttons |
+| Accent Gold | `#C9A84C` | Highlights, icons |
+| Dark Green | `#1B4332` | Services section background |
+| White | `#FFFFFF` | Text on dark, backgrounds |
+| Gray | `#F5F5F5`, `#Gray-50` | Secondary backgrounds |
+| WhatsApp Green | `#25D366` | Floating WhatsApp button |
+
+## Content Categories
+
+### Services (en)
+1. Bookkeeping & Reconciliations
+2. Financial Reports (Income Statement, Balance Sheet, Cash Flow)
+3. Budgeting & Cost Control
+4. Financial Analysis
+5. Support for Businesses in the U.S. & Colombia
+
+### Services (es)
+1. Contabilidad y Conciliaciones
+2. Informes Financieros (Estado de Resultados, Balance General, Flujo de Caja)
+3. Presupuestos y Control de Costos
+4. Análisis Financiero
+5. Apoyo para Empresas en EE.UU. y Colombia
+
+## Translation Keys
+
+The site uses a `data-i18n` attribute system with the following keys:
+```
+current_lang, nav_services, nav_contact, nav_cta,
+hero_badge, hero_h1, hero_subtitle, hero_circle_text,
+hero_stat_1, hero_stat_2, hero_stat_3, hero_card, hero_cta,
+services_callout,
+service_1_title, service_1_desc,
+service_2_title, service_2_desc,
+service_3_title, service_3_desc,
+service_4_title, service_4_desc,
+service_5_title, service_5_desc,
+services_cta,
+trust_1_title, trust_1_desc,
+trust_2_title, trust_2_desc,
+trust_3_title, trust_3_desc,
+trust_cta,
+footer_tagline, footer_copyright
+```
+
+## External Links
+
+- **WhatsApp**: https://wa.me/573006221079
+- **Google Fonts**: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
+- **Tailwind CDN**: https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4
+
+## Important Notes
+
+- Single-page application with anchor navigation
+- JavaScript handles language switching without page reload
+- Hero image changes dynamically based on language (ES: 02-claridad-finaciera.jpeg, EN: 01-financial-clarity.jpeg)
+- All text is bilingual (Spanish/English)
+- WhatsApp is primary contact method
+- Site optimized for mobile and desktop viewing
+- No forms or email - contact via WhatsApp only
+
+---
+
+*This file is designed to help AI models understand and navigate this website effectively.*

@@ -1,0 +1,59 @@
+/**
+ * Objeto de traducciones para JT Consulting.
+ * Contiene todos los textos del sitio en español e inglés.
+ * @module i18n/translations
+ */
+
+export const es = {
+  current_lang: "ES",
+  nav_services: "Servicios",
+  nav_contact: "Contáctame",
+  nav_cta: "Contáctame",
+  services_callout: "Transformando datos financieros en crecimiento y mejores decisiones.",
+  service_1_title: "CONTABILIDAD Y CONCILIACIONES",
+  service_1_desc: "Registros precisos y actualizados",
+  service_2_title: "INFORMES FINANCIEROS",
+  service_2_desc: "Estado de Resultados, Balance General, Flujo de Caja",
+  service_3_title: "PRESUPUESTOS Y CONTROL DE COSTOS",
+  service_3_desc: "Planifica, monitorea y optimiza tus recursos",
+  service_4_title: "ANÁLISIS FINANCIERO",
+  service_4_desc: "Información clara para tomar mejores decisiones",
+  service_5_title: "APOYO PARA EMPRESAS EN EE. UU. Y COLOMBIA",
+  service_5_desc: "Experiencia trabajando con empresas en ambos mercados",
+  services_cta: "¡TRABAJEMOS JUNTOS!",
+  trust_1_title: "CONFIABLE",
+  trust_1_desc: "Confidencialidad y profesionalismo",
+  trust_2_title: "ENTREGA PUNTUAL",
+  trust_2_desc: "Compromiso y eficiencia",
+  trust_3_title: "COMUNICACIÓN CLARA",
+  trust_3_desc: "Te mantengo informado en cada paso",
+  footer_tagline: "Finanzas sólidas para negocios que crecen.",
+  footer_copyright: "© 2026 JT Consulting. Todos los derechos reservados.",
+};
+
+export const en = {
+  current_lang: "EN",
+  nav_services: "Services",
+  nav_contact: "Contact me",
+  nav_cta: "Contact me",
+  services_callout: "Turning financial data into growth and better decisions.",
+  service_1_title: "BOOKKEEPING & RECONCILIATIONS",
+  service_1_desc: "Accurate and up-to-date records",
+  service_2_title: "FINANCIAL REPORTS",
+  service_2_desc: "Income Statement, Balance Sheet, Cash Flow",
+  service_3_title: "BUDGETING & COST CONTROL",
+  service_3_desc: "Plan, monitor, and optimize your resources",
+  service_4_title: "FINANCIAL ANALYSIS",
+  service_4_desc: "Clear insights for better business decisions",
+  service_5_title: "SUPPORT FOR BUSINESSES IN THE U.S. & COLOMBIA",
+  service_5_desc: "Experience working with companies in both markets",
+  services_cta: "LET'S WORK TOGETHER!",
+  trust_1_title: "TRUSTED",
+  trust_1_desc: "Confidentiality and professionalism",
+  trust_2_title: "ON TIME DELIVERY",
+  trust_2_desc: "Commitment and efficiency",
+  trust_3_title: "CLEAR COMMUNICATION",
+  trust_3_desc: "I keep you informed every step of the way",
+  footer_tagline: "Solid finances for growing businesses.",
+  footer_copyright: "© 2026 JT Consulting. All rights reserved.",
+};
