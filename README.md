@@ -1,75 +1,80 @@
-# React + TypeScript + Vite
+# JT Consulting — Claridad Financiera para tu Negocio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**JT Consulting** es la página web profesional de **Jessica Tabares E.**, contadora y consultora financiera especializada en pequeñas empresas de **Colombia y Estados Unidos**.
 
-Currently, two official plugins are available:
+El negocio ayuda a dueños de negocio a organizar sus finanzas, entender sus números y tomar mejores decisiones. Con más de 10 años de experiencia trabajando en ambos mercados, ofrece un servicio completamente bilingüe (español e inglés).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Servicios
 
-## React Compiler
+| # | Servicio | Descripción |
+|---|---|---|
+| 1 | Contabilidad y Conciliaciones | Registros precisos y actualizados |
+| 2 | Informes Financieros | Estado de Resultados, Balance General, Flujo de Caja |
+| 3 | Presupuestos y Control de Costos | Planificar, monitorear y optimizar recursos |
+| 4 | Análisis Financiero | Información clara para tomar mejores decisiones |
+| 5 | Apoyo para Empresas en EE.UU. y Colombia | Asesoría en ambos mercados |
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Estructura del sitio
 
-Note: This will impact Vite dev & build performances.
+Landing page de una sola página con navegación por anclas:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+Navbar (sticky — logo, toggle ES/EN, Servicios, Contacto, WhatsApp)
+    ↓
+Hero Section (imagen a full-width, cambia según idioma)
+    ↓
+Services Section (#servicios — 5 tarjetas en grid 2-col, fondo verde con overlay)
+    ↓
+Jessica Section (foto circular de Jessica — toque personal)
+    ↓
+Trust Bar Section (3 valores: Confiable 🛡️, Puntual ⏰, Comunicación Clara 💬)
+    ↓
+Footer (#contacto — WhatsApp, emails, LinkedIn, Instagram, copyright)
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Toda la página tiene un **botón flotante de WhatsApp** verde con animación de pulso, visible siempre en la esquina inferior derecha. Las llamadas a la acción en cada sección llevan directo a WhatsApp (+57 300 6221079), que es el único canal de contacto y conversión del negocio.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Valores de marca
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **Confiable** — Confidencialidad y profesionalismo
+- **Entrega Puntual** — Compromiso y eficiencia
+- **Comunicación Clara** — El cliente está informado en cada paso
+
+## Público objetivo
+
+Dueños de pequeñas empresas en Colombia y Estados Unidos que necesitan orden financiero, hablan español o inglés, y buscan una asesora que entienda ambos mercados.
+
+## Contacto
+
+| Canal | Dato |
+|---|---|
+| **WhatsApp** | [+57 300 6221079](https://wa.me/573006221079) |
+| **Email** | jtfinanceconsulting@gmail.com |
+| **Email** | jtcontabilidadyfinanzas@gmail.com |
+| **LinkedIn** | Jessica Tabares E. |
+| **Web** | [jtconsulting.com.co](https://jtconsulting.com.co) |
+
+---
+
+## Stack técnico
+
+| Tecnología | Versión |
+|---|---|
+| React | 19 |
+| TypeScript | 6 |
+| Vite | 8 |
+| Tailwind CSS | 4 |
+| shadcn/ui (radix-nova) | 4.8 |
+| i18next | 26 |
+| Radix UI | 1.4 |
+| Lucide React | 1.16 |
+| React Compiler | 1.0 |
+
+## Scripts
+
+```bash
+npm run dev      # Servidor de desarrollo
+npm run build    # TypeScript check + build producción
+npm run lint     # ESLint
+npm run preview  # Previsualizar build
 ```
