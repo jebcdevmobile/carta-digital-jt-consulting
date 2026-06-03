@@ -110,7 +110,7 @@ export function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/jex.tab"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-[#C9A84C] transition-transform hover:scale-110"
