@@ -61,10 +61,10 @@ export function Navbar() {
             />
           </a>
 
-          {/* Language Toggle - Desktop */}
+          {/* Language Toggle - Always visible */}
           <button
             onClick={toggleLanguage}
-            className="hidden md:flex items-center gap-2 bg-[#C9A84C] hover:bg-[#b8983f] text-[#0D2137] px-3 py-2 rounded font-semibold text-sm transition-colors"
+            className="flex items-center gap-2 bg-[#C9A84C] hover:bg-[#b8983f] text-[#0D2137] px-3 py-2 rounded font-semibold text-sm transition-colors"
           >
             <svg
               className="w-4 h-4"
@@ -152,27 +152,6 @@ export function Navbar() {
               </SheetDescription>
 
               <div className="space-y-4">
-                {/* Language toggle in mobile */}
-                <button
-                  onClick={toggleLanguage}
-                  className="flex items-center gap-2 bg-[#C9A84C] hover:bg-[#b8983f] text-[#0D2137] px-3 py-2 rounded font-semibold text-sm transition-colors w-fit"
-                >
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
-                    />
-                  </svg>
-                  <span>{t("current_lang")}</span>
-                </button>
-
                 {NAV_LINKS.map((link) => (
                   <a
                     key={link.i18nKey}

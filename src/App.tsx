@@ -9,6 +9,7 @@ import { WhatsappButton } from "./components/ui/whatsapp-button";
 import { HeroSection } from "./components/sections/hero-section";
 import { ServicesSection } from "./components/sections/services-section";
 import { TrustBarSection } from "./components/sections/trust-bar-section";
+import { JessicaSection } from "./components/sections/jessica-section";
 import { Footer } from "./components/layout/footer";
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
       <WhatsappButton />
       <HeroSection />
       <ServicesSection />
+      <JessicaSection />
       <TrustBarSection />
       <Footer />
     </>
